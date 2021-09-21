@@ -1,0 +1,24 @@
+/* NORMALIZE CSS */
+@import url(normalize.css);
+
+/* HEADER CSS */
+@import url(header.css);
+
+/* MAIN CSS */
+@import url(main.css);
+
+/* COLLECTION CSS */
+@import url(collection.css);
+
+/* CLOTHES CSS */
+@import url(clothes.css);
+
+/* GALLERY CSS */
+@import url(gallery.css);
+
+/* SPONSER CSS */
+@import url(sponser.css);
+
+/* SPONSER CSS */
+@import url(footer.css);
+

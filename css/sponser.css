@@ -1,0 +1,37 @@
+.sponser-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+
+.sponser__img-block {
+    width: 255px;
+}
+
+.sponser__img {
+    width: 100%;
+}
+
+@media (max-width: 991px) {
+    .sponser-wrapper {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .sponser__img-block {
+        width: 35%;
+    }
+}
+
+@media (max-width: 767px) {
+    .sponser__img-block {
+        width: 50%;
+    }
+}
+
+@media (max-width: 575px) {
+    .sponser__img-block {
+        width: 80%;
+    }
+}

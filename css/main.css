@@ -1,0 +1,88 @@
+.main {
+    background: url(../images/first-screen.jpg) no-repeat center / cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main__title {
+    width: 320px;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #fff;
+    margin: 160px auto 80px;
+}
+
+.main__img {
+    width: 185px;
+}
+
+.main__empty {
+    width: 179px;
+    margin: 15px auto;
+    height: 2px;
+    background: #fff;
+}
+
+.main__subtitle {
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.main__text {
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-bottom: 155px;
+}
+
+/* ********* ANIMATE CSS ********** */
+.animate__animated.animate__bounceInUp{
+    --animate-duration: 1.5s;
+}
+
+
+
+
+
+@media (max-width: 575px){
+    .main__title{
+        margin: 80px auto;
+        width: 240px;
+        height: 240px;
+    }
+    
+    .main__img{
+        width: 150px;
+    }
+    
+    .main__empty{
+        width: 150px;
+        margin: 10px auto;
+    }
+    
+    .main__subtitle{
+        font-size: 17px;
+    }
+    
+    .main__text{
+        font-size: 13px;
+        line-height: 130%;
+        padding-bottom: 80px;
+    }
+    
+}

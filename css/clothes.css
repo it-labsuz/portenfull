@@ -1,0 +1,71 @@
+.clothes {
+    width: 100%;
+    display: flex;
+}
+
+.clothes-left {
+    width: 40%;
+    background: url(../images/Rectangle\ 9.svg);
+    background-repeat: no-repeat;
+    background-position: center 0;
+    background-size: cover;
+}
+
+.clothes-right {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.clothes-right__title {
+    font-weight: 400;
+}
+
+.clothes-right__text {
+    width: 471px;
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 61px;
+}
+
+
+/* MEDIA CSS */
+
+@media(max-width: 1199px){
+    .clothes-left{
+        width: 50%;
+    }
+    
+    .clothes-right{
+        width: 50%;
+    }
+    
+    .clothes-right__text{
+        width: 420px;
+    }
+}
+
+
+@media (max-width: 991px) {
+    .clothes-right__text{
+        width: 90%;
+        margin-bottom: 40px;
+    }
+}
+
+
+@media (max-width: 767px) {
+    .clothes-left{
+        display: none;
+    }
+    
+    .clothes-right{
+        width: 100%;
+    }
+}
